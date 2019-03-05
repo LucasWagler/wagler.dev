@@ -1,0 +1,33 @@
+html {
+    /*
+    BACKGROUND
+    */
+    background: url(img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    resize: both;
+    overflow: scroll;
+
+    background-color: #202327;
+    /* color: aliceblue; */
+    font-family: 'Courier New', Courier, monospace
+}
+body {
+    /* font-family: 'verdana'; */
+    color:whitesmoke;
+    text-align: center;
+}
+.title {
+    /*
+    includes:
+     name
+    */
+    /* font-family: 'Didact Gothic', sans-serif; */
+    color: white
+}
+#profilepic {
+    border-radius:50%;
+    height: 7em;
+    border: 3px solid whitesmoke;
+}
