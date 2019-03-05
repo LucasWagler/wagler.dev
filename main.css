@@ -3,20 +3,29 @@ html {
     BACKGROUND
     */
     background: url(img/background.jpg) no-repeat center center fixed;
+    background-color: #202327;
     background-size: cover;
+
     height: 100%;
     width: 100%;
     resize: both;
     overflow: scroll;
 
-    background-color: #202327;
-    /* color: aliceblue; */
     font-family: 'Courier New', Courier, monospace
 }
 body {
     /* font-family: 'verdana'; */
     color:whitesmoke;
+    /* text-align: center; */
+    font-size: 1.3em;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+    font-size: 12px;
 }
 .title {
     /*
