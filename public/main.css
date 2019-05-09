@@ -121,13 +121,13 @@ footer
   margin-bottom: 40px;
 } */
 
-.wave {
+#wave {
   /* display: block; */
   /* width: 200px; */
   text-align: left;
   margin-left: 30px;
   /* overflow: auto; */
-  
+  visibility: hidden;
 }
 
 footer p {
@@ -145,18 +145,28 @@ footer p {
   vertical-align: bottom;
 } */
 
-#footerlink:link,
-#footerlink:active,
-#footerlink:visited
+.footerlink:link,
+.footerlink:active,
+.footerlink:visited
 {
   color: whitesmoke;
   text-decoration: none;
   padding: 0;
 }
-#footerlink:hover
+.footerlink:hover
 {
   color: gray;
   text-decoration: none;
+}
+
+#wavetoggle {
+  /* color: whitesmoke; */
+  cursor: default;
+  /* text-decoration: none; */
+}
+#wavetoggle:hover {
+  color: whitesmoke;
+  /* text-decoration: none; */
 }
 
 #profilepic
