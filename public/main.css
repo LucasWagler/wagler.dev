@@ -24,7 +24,6 @@ body
   
   min-height: 100vh;
   margin: 0 !important;
-  /* padding: 0 !important; */
 }
 
 .sidebar
@@ -34,7 +33,6 @@ body
   background-color: #111;
   overflow: hidden hidden;
   padding-top: 10rem;
-  /* padding-bottom: 24px; */
   text-align: center;
   font-size: 1.6em;
   
@@ -58,14 +56,6 @@ body
 .title
 {
   padding-top: 0px;
-}
-
-/* Sidebar links */
-.sidebar .navlink
-{
-  display: inline-block;
-  /* padding: 8px; */
-  
 }
 
 .sidebar a
@@ -115,28 +105,23 @@ footer
   text-align: center;
   font-size: 12px;
   overflow: hidden;
+  visibility: hidden;
 }
 
 #wave
 {
-  /* display: block; */
   width: 300px;
   text-align: left;
   font-size: 12px;
   margin-left: 30px;
-  /* overflow: auto; */
   visibility: hidden;
   position: absolute;
   bottom: 24px;
-  /* background-color: inherit; */
-  /* padding: inherit; */
   z-index: 2;
 }
 #wave p
 {
-  /* font-size: 1em; */
   overflow: hidden;
-  /* padding-bottom: 0px; */
 }
 
 .footerlink:link,
@@ -160,6 +145,22 @@ footer
 #wavetoggle:hover
 {
   color: whitesmoke;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+}
+.sidebar
+{
+  top: 50%;
+  font-size: 2em;
+}
+#profilepic
+{
+  filter: grayscale(0%);
 }
 
 @media screen and (max-width: 769px)
