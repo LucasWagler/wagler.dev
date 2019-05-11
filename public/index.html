@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
   <script src="main.js"></script>
+  <!-- <base target="_blank"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
@@ -19,10 +20,11 @@
 
     <h1 class="title"><a href="./">Lucas Wagler</a></h1>
 
-    <table id="linkbox">
+    <table id="linkbox" target="_blank">
       <tr>
         <td>
-          <a href="https://github.com/lucaswagler" target="_blank" class="navlink"><i class="fab fa-github fa-fw"></i></a>
+          <a href="https://github.com/lucaswagler" class="navlink" id="githublink" style="display: block;" title="Prefer GitLab? Press G"><i class="fab fa-github fa-fw"></i></a>
+          <a href="https://gitlab.com/lucaswagler" target="_blank" class="navlink" id="gitlablink" style="display: none;"  title="Prefer GitHub? Press G"><i class="fab fa-gitlab fa-fw"></i></a>
         </td>
         <td>
           <a href="https://twitter.com/WaglerLucas" target="_blank" class="navlink"><i class="fab fa-twitter fa-fw"></i></a>
@@ -31,18 +33,18 @@
           <a href="https://www.instagram.com/lucaswagler" target="_blank" class="navlink"><i class="fab fa-instagram fa-fw"></i></a>
         </td>
         <td>
-          <a href="https://www.linkedin.com/in/lucaswagler" target="_blank" class="navlink"><i class="fab fa-linkedin fa-fw"></i></a>
+            <a href="https://open.spotify.com/user/lucas.wagler" target="_blank" class="navlink"><i class="fab fa-spotify fa-fw"></i></a>
         </td>
       </tr>
       <tr>
         <td>
-          <a href="https://gitlab.com/lucaswagler" target="_blank" class="navlink"><i class="fab fa-gitlab"></i></a>
+          <a href="https://www.linkedin.com/in/lucaswagler" target="_blank" class="navlink"><i class="fab fa-linkedin fa-fw"></i></a>
         </td>
         <td>
           <a href="https://www.reddit.com/user/lucaswagler" target="_blank" class="navlink"><i class="fab fa-reddit fa-fw"></i></a>
         </td>
         <td>
-          <a href="https://open.spotify.com/user/lucas.wagler" target="_blank" class="navlink"><i class="fab fa-spotify fa-fw"></i></a>
+          <a href="https://www.snapchat.com/add/lucas_wagler" target="_blank" class="navlink"><i class="fab fa-snapchat-ghost fa-fw"></i></a>
         </td>
         <td>
           <a href="mailto:lucas@wagler.dev" target="_blank" class="navlink"><i class="far fa-envelope  fa-fw"></i></a>
@@ -70,8 +72,9 @@
     <!-- TODO -->
   </main>
   <footer>
-      <a href="#" onclick="toggle_visibility('wave');" class="footerlink" id="wavetoggle">&copy;</a>
-      <script>document.write(new Date().getFullYear());</script> Lucas Wagler
+      <a href="#"  class="footerlink" id="wavetoggle">&copy;</a>
+      <script>document.write(new Date().getFullYear());</script>
+       | Icons by <a href="https://fontawesome.com/license/free" class="footerlink">Font Awesome</a>
       <br>&nbsp;
   </footer>
 </body>
