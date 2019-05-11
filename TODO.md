@@ -6,3 +6,4 @@
 - Cookie practice
 - More pages to implement hidden sidebar design w/ grayed profile pic
 - Finalize highlight color; custom color picker on site?
+- clarify functions from easter eggs in title (JS)

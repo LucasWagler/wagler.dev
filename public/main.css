@@ -68,7 +68,7 @@ body
 /* Links on mouse-over */
 .sidebar a:hover:not(.active)
 {
-  color: #850000;;
+  color: #850000;
 }
 
 #profilepic
@@ -90,6 +90,14 @@ body
 {
   text-decoration: none;
   color: whitesmoke;
+  cursor: pointer;
+}
+
+#titleFirst {
+  display: inline-block;
+}
+#titleFirst a {
+  display: inherit;
 }
 
 main
@@ -145,6 +153,14 @@ footer
 #wavetoggle:hover
 {
   color: whitesmoke;
+}
+
+#titleG {
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #850000;
 }
 
 body

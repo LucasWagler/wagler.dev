@@ -22,9 +22,48 @@ function openInNewTab(classname) {
     }
 }
 
+function clickedTitleG() {
+    if (typeof arguments.callee.CLICKSREQUIRED == 'undefined') {
+        arguments.callee.CLICKSREQUIRED = 8;
+    }
+    if (typeof arguments.callee.count == 'undefined') {
+        arguments.callee.count = 1;
+    }
+    var CLICKSREQUIRED = arguments.callee.CLICKSREQUIRED;
+    var count = arguments.callee.count;
+
+    if (count <= CLICKSREQUIRED) {
+        toggle_visibility('githublink');
+        toggle_visibility('gitlablink');
+    }
+    if (count == CLICKSREQUIRED) {
+        document.getElementById('titleG').innerHTML = "v";
+        document.getElementById('titleL2').innerHTML = "i";
+        document.getElementById('titleFirst').style.display = "none";
+    }
+    if (count == 2 * CLICKSREQUIRED) {
+        document.getElementById('titleG').innerHTML = "g";
+        document.getElementById('titleL2').innerHTML = "l";
+        document.getElementById('titleFirst').style.display = "initial";
+    }
+
+    
+    count = (count >= 2 * CLICKSREQUIRED) ? 0 : count;
+    count++;
+    arguments.callee.count = count;
+}
+
 window.onload = function() {
     openInNewTab('navlink');
     document.getElementById('wavetoggle').addEventListener('click', function() {toggle_visibility('wave');}, false);
+    document.getElementById('titleW').addEventListener('click', function() {
+        if (clickedTitleG.count > clickedTitleG.CLICKSREQUIRED) {
+            toggle_visibility('wave');
+        }
+    }, false);
+    document.getElementById('titleG').addEventListener('click', function() {
+        clickedTitleG();
+    }, false);
 }
 
 window.onkeyup = function(e) {
