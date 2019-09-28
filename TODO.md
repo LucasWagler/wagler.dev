@@ -1,5 +1,5 @@
 # TODO
-- Reddit v Instagram Pac-Man minigame
+- Reddit v Instagram Pac-Man minigame?
 - Link MIT license?
 - Decide on license for site, if any
 - Dark/light theme toggle?
