@@ -181,11 +181,11 @@ body
 
 #githublink
 {
-  display: block;
+  display: none;
 }
 #gitlablink
 {
-  display: none;
+  display: block;
 }
 
 @media screen and (max-width: 769px)
