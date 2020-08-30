@@ -68,7 +68,7 @@ body
 /* Links on mouse-over */
 .sidebar a:hover:not(.active)
 {
-  color: #850000;
+  color: #af2222;
 }
 
 #profilepic
@@ -82,7 +82,7 @@ body
 
 #profilepic:hover
 {
-  border-color: #850000;
+  border-color: #af2222;
   filter: grayscale(0%);
 }
 
@@ -160,7 +160,7 @@ footer
 }
 
 .title:hover {
-  color: #850000;
+  color: #af2222;
 }
 
 body
