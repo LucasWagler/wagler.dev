@@ -26,6 +26,12 @@ body
   margin: 0 !important;
 }
 
+p
+{
+  text-indent: 2em;
+  font-size: 0.6em;
+}
+
 .sidebar
 {
   grid-area: navbar;
@@ -250,4 +256,7 @@ div
 article
 {
   max-width: 33%;
+  margin: auto;
+  align-items: center;
+  text-align: left;
 }
