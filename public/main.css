@@ -246,3 +246,8 @@ div
   width: 50%;
   margin: auto;
 }
+
+article
+{
+  max-width: 33%;
+}
