@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: wagler.dev
+Token: e898bbf0f5b00af4da313ba62f88e7d9fbeb764264ed2a851285c5ffeb68d54b
